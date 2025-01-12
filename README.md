@@ -1,5 +1,6 @@
 # bicep-deployment-stack
 ## create/update/delete deployment stack through command line
+Note: cd infra
 
 1) Create a deployment stack
 
