@@ -31,13 +31,13 @@ az stack group delete ^
   
 ## Miscellaneous commands
 
-1) To list available experimental features
+1) To list available experimental features : 
    azd config list-alpha
 
-2) To enable a specific experimental feature
+2) To enable a specific experimental feature : 
    azd config set alpha.deployment.stacks on
 
-3) To show current configurations
+3) To show current configurations : 
    azd config show
 
 
