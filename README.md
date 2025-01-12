@@ -28,6 +28,13 @@ az stack group delete ^
   --name demoStack ^
   --resource-group rg-raptor-dev ^
   --action-on-unmanage deleteAll
+
+5) To delete the deployment stack, but retain the managed resources:
+
+az stack group delete ^
+  --name demoStack ^
+  --resource-group rg-raptor-dev ^
+  --action-on-unmanage detachAll
   
 ## Miscellaneous commands
 
@@ -39,17 +46,3 @@ az stack group delete ^
 
 3) To show current configurations : 
    azd config show
-
-
-
-
-
-  
-  
-
-5) To delete the deployment stack, but retain the managed resources:
-
-az stack group delete ^
-  --name demoStack ^
-  --resource-group rg-raptor-dev ^
-  --action-on-unmanage detachAll
